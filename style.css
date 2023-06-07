@@ -141,6 +141,7 @@ body {
 }
 .contacts__icon {
   transition: all 0.5s;
+  color: #000;
 }
 .contacts__link {
   position: absolute;
@@ -244,7 +245,7 @@ body {
   margin: 0 0 10px 0;
 }
 .text-item__title--photo {
-  font-size: 35px;
+  font-size: 30px;
   color: #fff;
   letter-spacing: 2px;
 }

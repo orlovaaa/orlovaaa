@@ -163,6 +163,7 @@ body {
  
     &__icon {
        transition: all 0.5s;
+       color: #000;
     }
  
     &__link {
@@ -281,7 +282,7 @@ body {
         margin: 0 0 10px 0;
 
         &--photo {
-            font-size: 35px;
+            font-size: 30px;
             color: #fff;
             letter-spacing: 2px;
 
