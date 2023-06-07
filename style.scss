@@ -144,66 +144,24 @@ body {
     }
  
     &__item {
-       font-size: 25px;
-       margin: 0 0 0 5px;
-       width: 30px;
-       height: 30px;
-       position: relative;
-       overflow: hidden;
-       cursor: pointer;
- 
-       &:hover .contacts__icon {
-          transform: translateY(-40px);
-       }
- 
-       &:hover .contacts__link {
-          transform: translateY(0);
-       }
-    }
- 
-    &__icon {
-       transition: all 0.5s;
-       color: #000;
+        font-size: 28px;
+        margin: 0 0 0 15px;
     }
  
     &__link {
-       position: absolute;
-       top: 0;
-       left: 0;
-       right: 0;
-       transform: translateY(50px);
-       transition: all 0.5s;
- 
-       &--1 {
-          color: #a13b58;
-       }
- 
-       &--2 {
-        color: rgb(104, 146, 209);
-       }
-    }
- 
-    &__quote {
-       font-family: $title;
-       font-size: 40px;
-       font-weight: 700;
-       margin: 0 0 10px 0;
-       color: #fff;
- 
-       & > span {
-          font-weight: 400;
-          font-family: $cursive;
-          font-size: 25px;
-       }
-    }
- 
-    &__phone {
-       color: #000;
- 
-       &:hover {
-          text-decoration: underline;
-       }
- 
+        color: #000;
+        
+        &:visited {
+            color: #757C65;
+        }
+
+        &--inContent {
+            color: #fff;
+
+            &:visited {
+                color: #fff;
+            }
+        }
     }
 }
 
@@ -282,13 +240,13 @@ body {
         margin: 0 0 10px 0;
 
         &--photo {
-            font-size: 30px;
+            font-size: calc((100vw - 320px) / (1000 - 320) * (30 - 16) + 16px);
             color: #fff;
             letter-spacing: 2px;
 
             & > span {
                 font-weight: 400;
-                font-size: 25px;
+                font-size: calc((100vw - 320px) / (1000 - 320) * (25 - 10) + 10px);
                 font-family: $cursive;
             }
         }
