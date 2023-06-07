@@ -145,7 +145,10 @@ body {
  
     &__item {
         font-size: 28px;
-        margin: 0 0 0 15px;
+
+        &:not(:last-child) {
+            margin: 0 15px 0 0;
+        }
     }
  
     &__link {

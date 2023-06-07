@@ -126,7 +126,9 @@ body {
 }
 .contacts__item {
   font-size: 28px;
-  margin: 0 0 0 15px;
+}
+.contacts__item:not(:last-child) {
+  margin: 0 15px 0 0;
 }
 .contacts__link {
   color: #000;
