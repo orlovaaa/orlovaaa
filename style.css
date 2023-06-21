@@ -195,6 +195,20 @@ body {
   color: #444;
 }
 
+.photo-item__link {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.photo-item__link-box {
+  height: 100%;
+}
+
 .text-item {
   padding: 20px;
   display: flex;
